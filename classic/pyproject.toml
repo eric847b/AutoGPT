@@ -53,7 +53,7 @@ tiktoken = ">=0.7.0,<1.0.0"
 fastapi = "^0.109.1"
 hypercorn = "^0.14.4"
 uvicorn = { extras = ["standard"], version = ">=0.23.2,<1" }
-python-multipart = ">=0.0.7,<0.0.32"
+python-multipart = ">=0.0.7,<0.0.33"
 
 # Data processing
 charset-normalizer = "^3.1.0"
@@ -111,7 +111,7 @@ pytest = ">=8,<10"
 
 [tool.poetry.group.dev.dependencies]
 # Formatting & linting
-black = "^24.10.0"
+black = ">=24.10,<27.0"
 flake8 = "^7.0.0"
 isort = "^5.13.1"
 pre-commit = "^3.3.3"
